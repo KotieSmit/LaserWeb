@@ -9,7 +9,7 @@ RUN apt-get update && \
 
 # LaserWeb
 RUN git clone --depth=1 https://github.com/LaserWeb/LaserWeb3.git
-RUN cd LaserWeb && npm install
+RUN cd LaserWeb3 && npm install
 
 # Container config
 EXPOSE 8000
