@@ -13,5 +13,5 @@ RUN cd LaserWeb3 && npm install
 
 # Container config
 EXPOSE 8000
-WORKDIR /LaserWeb
+WORKDIR /LaserWeb3
 ENTRYPOINT nodejs server.js
