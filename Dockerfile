@@ -8,7 +8,7 @@ RUN apt-get update && \
     build-essential git
 
 # LaserWeb
-RUN git clone --depth=1 https://github.com/openhardwarecoza/LaserWeb.git
+RUN git clone --depth=1 https://github.com/LaserWeb/LaserWeb3.git
 RUN cd LaserWeb && npm install
 
 # Container config
